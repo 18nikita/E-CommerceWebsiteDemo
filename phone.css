@@ -1,0 +1,20 @@
+@media only screen and (max-width:300px);
+body{
+    background-color: brown;
+}
+@media only screen and (min-width:300px) and (max-width:500px);
+body{
+    background-color: green;
+}
+@media only screen and (min-width:500px) and (max-width:800px);
+body{
+    background-color: rgb(52, 141, 192);
+}
+@media only screen and (min-width:300px) and (max-width:500px);
+body{
+    background-color: rgb(241, 245, 41);
+}
+@media only screen and (min-width:800px);
+body{
+    background-color: rgba(128, 0, 111, 0.856);
+}
